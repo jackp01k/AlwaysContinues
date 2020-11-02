@@ -18,6 +18,7 @@ public class Driver {
 		ArrayList<Object> list1 = new ArrayList<Object>();
 		ArrayList<? super Number> list2 = list1;
 		
+		System.out.println("Written by nano!");
 	}
 	
 	
