@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 import javax.swing.JFrame;
 
 public class Driver {
@@ -11,6 +13,11 @@ public class Driver {
 		frame.setSize(400, 400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
+		
+		//legal wildcard
+		ArrayList<Object> list1 = new ArrayList<Object>();
+		ArrayList<? super Number> list2 = list1;
+		
 	}
 	
 	
